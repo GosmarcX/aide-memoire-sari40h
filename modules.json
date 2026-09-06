@@ -1,0 +1,425 @@
+[
+ {
+  "file": "Aide-memoire Prevention.dc.html",
+  "label": "Prévention",
+  "accent": "#00A777",
+  "solid": "#007A57",
+  "pages": 7,
+  "items": [
+   {
+    "id": "couverture",
+    "page": 1,
+    "cover": true,
+    "titre": "Couverture et sommaire"
+   },
+   {
+    "id": "f00",
+    "page": 2,
+    "cover": false,
+    "titre": "Introduction au chapitre"
+   },
+   {
+    "id": "f01",
+    "page": 3,
+    "cover": false,
+    "titre": "Les premiers soins"
+   },
+   {
+    "id": "f02",
+    "page": 4,
+    "cover": false,
+    "titre": "Le leadership"
+   },
+   {
+    "id": "f03",
+    "page": 5,
+    "cover": false,
+    "titre": "Les lois et responsabilités"
+   },
+   {
+    "id": "f04",
+    "page": 6,
+    "cover": false,
+    "titre": "Prévention de la transmission des maladies"
+   },
+   {
+    "id": "f05",
+    "page": 7,
+    "cover": false,
+    "titre": "Les structures du corps"
+   }
+  ]
+ },
+ {
+  "file": "Aide-memoire Evaluation.dc.html",
+  "label": "Évaluation",
+  "accent": "#0550A0",
+  "solid": "#0550A0",
+  "pages": 8,
+  "items": [
+   {
+    "id": "couverture",
+    "page": 1,
+    "cover": true,
+    "titre": "Couverture et sommaire"
+   },
+   {
+    "id": "f00",
+    "page": 2,
+    "cover": false,
+    "titre": "Introduction au chapitre"
+   },
+   {
+    "id": "f01",
+    "page": 3,
+    "cover": false,
+    "titre": "Système d'évaluation du patient (SEP)"
+   },
+   {
+    "id": "f02",
+    "page": 4,
+    "cover": false,
+    "titre": "Triage"
+   },
+   {
+    "id": "f03",
+    "page": 5,
+    "cover": false,
+    "titre": "État de choc"
+   },
+   {
+    "id": "f04",
+    "page": 6,
+    "cover": false,
+    "titre": "Déplacement des victimes"
+   },
+   {
+    "id": "f05",
+    "page": 7,
+    "cover": false,
+    "titre": "Considérations liées à l'évacuation"
+   },
+   {
+    "id": "f06",
+    "page": 8,
+    "cover": false,
+    "titre": "Communication"
+   }
+  ]
+ },
+ {
+  "file": "Aide-memoire Urgences medicales.dc.html",
+  "label": "Urgences médicales",
+  "accent": "#536EB3",
+  "solid": "#536EB3",
+  "pages": 12,
+  "items": [
+   {
+    "id": "couverture",
+    "page": 1,
+    "cover": true,
+    "titre": "Couverture et sommaire"
+   },
+   {
+    "id": "f00",
+    "page": 2,
+    "cover": false,
+    "titre": "Introduction au chapitre"
+   },
+   {
+    "id": "f01",
+    "page": 3,
+    "cover": false,
+    "titre": "Urgences cardiovasculaires"
+   },
+   {
+    "id": "f02",
+    "page": 4,
+    "cover": false,
+    "titre": "Urgences cérébrovasculaires"
+   },
+   {
+    "id": "f03",
+    "page": 5,
+    "cover": false,
+    "titre": "Urgences respiratoires"
+   },
+   {
+    "id": "f04",
+    "page": 6,
+    "cover": false,
+    "titre": "Épilepsie et convulsions"
+   },
+   {
+    "id": "f05",
+    "page": 7,
+    "cover": false,
+    "titre": "Diabète"
+   },
+   {
+    "id": "f06",
+    "page": 8,
+    "cover": false,
+    "titre": "Urgences abdominales aiguës"
+   },
+   {
+    "id": "f07",
+    "page": 9,
+    "cover": false,
+    "titre": "Gastroentérite"
+   },
+   {
+    "id": "f08",
+    "page": 10,
+    "cover": false,
+    "titre": "Réactions allergiques et anaphylaxie"
+   },
+   {
+    "id": "f09",
+    "page": 11,
+    "cover": false,
+    "titre": "Poisons et toxines"
+   },
+   {
+    "id": "f10",
+    "page": 12,
+    "cover": false,
+    "titre": "Médicaments"
+   }
+  ]
+ },
+ {
+  "file": "Aide-memoire Urgences environnement.dc.html",
+  "label": "Urgences associées à l'environnement",
+  "accent": "#1C6B66",
+  "solid": "#1C6B66",
+  "pages": 9,
+  "items": [
+   {
+    "id": "couverture",
+    "page": 1,
+    "cover": true,
+    "titre": "Couverture et sommaire"
+   },
+   {
+    "id": "f00",
+    "page": 2,
+    "cover": false,
+    "titre": "Introduction au chapitre"
+   },
+   {
+    "id": "f01",
+    "page": 3,
+    "cover": false,
+    "titre": "La désinfection de l'eau"
+   },
+   {
+    "id": "f02",
+    "page": 4,
+    "cover": false,
+    "titre": "La foudre"
+   },
+   {
+    "id": "f03",
+    "page": 5,
+    "cover": false,
+    "titre": "Les morsures d'animaux"
+   },
+   {
+    "id": "f04",
+    "page": 6,
+    "cover": false,
+    "titre": "Les morsures de serpents"
+   },
+   {
+    "id": "f05",
+    "page": 7,
+    "cover": false,
+    "titre": "Les morsures d'arachnides"
+   },
+   {
+    "id": "f06",
+    "page": 8,
+    "cover": false,
+    "titre": "Les piqûres de moustiques"
+   },
+   {
+    "id": "f07",
+    "page": 9,
+    "cover": false,
+    "titre": "Les accidents de submersion et le sauvetage"
+   }
+  ]
+ },
+ {
+  "file": "Aide-memoire Lesions tissus mous.dc.html",
+  "label": "Lésions des tissus mous",
+  "accent": "#EF8221",
+  "solid": "#C25E12",
+  "pages": 8,
+  "items": [
+   {
+    "id": "couverture",
+    "page": 1,
+    "cover": true,
+    "titre": "Couverture et sommaire"
+   },
+   {
+    "id": "f00",
+    "page": 2,
+    "cover": false,
+    "titre": "Introduction au chapitre"
+   },
+   {
+    "id": "f01",
+    "page": 3,
+    "cover": false,
+    "titre": "Le système tégumentaire"
+   },
+   {
+    "id": "f02",
+    "page": 4,
+    "cover": false,
+    "titre": "L'évaluation"
+   },
+   {
+    "id": "f03",
+    "page": 5,
+    "cover": false,
+    "titre": "Les lésions spécifiques"
+   },
+   {
+    "id": "f04",
+    "page": 6,
+    "cover": false,
+    "titre": "Les ampoules"
+   },
+   {
+    "id": "f05",
+    "page": 7,
+    "cover": false,
+    "titre": "Les brûlures"
+   },
+   {
+    "id": "f06",
+    "page": 8,
+    "cover": false,
+    "titre": "Les trousses de premiers soins"
+   }
+  ]
+ },
+ {
+  "file": "Aide-memoire Lesions musculosquelettiques.dc.html",
+  "label": "Lésions musculosquelettiques",
+  "accent": "#493D8D",
+  "solid": "#493D8D",
+  "pages": 5,
+  "items": [
+   {
+    "id": "couverture",
+    "page": 1,
+    "cover": true,
+    "titre": "Couverture et sommaire"
+   },
+   {
+    "id": "f00",
+    "page": 2,
+    "cover": false,
+    "titre": "Introduction au chapitre"
+   },
+   {
+    "id": "f01",
+    "page": 3,
+    "cover": false,
+    "titre": "Le système musculosquelettique"
+   },
+   {
+    "id": "f02",
+    "page": 4,
+    "cover": false,
+    "titre": "L'évaluation et la prise en charge"
+   },
+   {
+    "id": "f03",
+    "page": 5,
+    "cover": false,
+    "titre": "Les attelles"
+   }
+  ]
+ },
+ {
+  "file": "Aide-memoire Lesions traumatiques.dc.html",
+  "label": "Lésions traumatiques",
+  "accent": "#493D8D",
+  "solid": "#493D8D",
+  "pages": 11,
+  "items": [
+   {
+    "id": "couverture",
+    "page": 1,
+    "cover": true,
+    "titre": "Couverture et sommaire"
+   },
+   {
+    "id": "f00",
+    "page": 2,
+    "cover": false,
+    "titre": "Introduction au chapitre"
+   },
+   {
+    "id": "f01",
+    "page": 3,
+    "cover": false,
+    "titre": "Les blessures au visage et au cou"
+   },
+   {
+    "id": "f02",
+    "page": 4,
+    "cover": false,
+    "titre": "Les blessures aux yeux"
+   },
+   {
+    "id": "f03",
+    "page": 5,
+    "cover": false,
+    "titre": "Les blessures au nez"
+   },
+   {
+    "id": "f04",
+    "page": 6,
+    "cover": false,
+    "titre": "Les blessures aux oreilles"
+   },
+   {
+    "id": "f05",
+    "page": 7,
+    "cover": false,
+    "titre": "Les blessures aux dents"
+   },
+   {
+    "id": "f06",
+    "page": 8,
+    "cover": false,
+    "titre": "L'anatomie et les fonctions du système nerveux"
+   },
+   {
+    "id": "f07",
+    "page": 9,
+    "cover": false,
+    "titre": "Les dispositifs d'immobilisation spinale"
+   },
+   {
+    "id": "f08",
+    "page": 10,
+    "cover": false,
+    "titre": "Les particularités pédiatriques"
+   },
+   {
+    "id": "f09",
+    "page": 11,
+    "cover": false,
+    "titre": "L'anatomie du thorax et de l'abdomen"
+   }
+  ]
+ }
+]
