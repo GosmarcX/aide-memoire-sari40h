@@ -1,0 +1,373 @@
+[
+ {
+  "module": "Prévention",
+  "mslug": "prevention",
+  "num": "00",
+  "titre": "Introduction au chapitre",
+  "file": "prevention-00-introduction-au-chapitre.html"
+ },
+ {
+  "module": "Prévention",
+  "mslug": "prevention",
+  "num": "01",
+  "titre": "Les premiers soins",
+  "file": "prevention-01-les-premiers-soins.html"
+ },
+ {
+  "module": "Prévention",
+  "mslug": "prevention",
+  "num": "02",
+  "titre": "Le leadership",
+  "file": "prevention-02-le-leadership.html"
+ },
+ {
+  "module": "Prévention",
+  "mslug": "prevention",
+  "num": "03",
+  "titre": "Les lois et responsabilités",
+  "file": "prevention-03-les-lois-et-responsabilites.html"
+ },
+ {
+  "module": "Prévention",
+  "mslug": "prevention",
+  "num": "04",
+  "titre": "Prévention de la transmission des maladies",
+  "file": "prevention-04-prevention-de-la-transmission-des-maladies.html"
+ },
+ {
+  "module": "Prévention",
+  "mslug": "prevention",
+  "num": "05",
+  "titre": "Les structures du corps",
+  "file": "prevention-05-les-structures-du-corps.html"
+ },
+ {
+  "module": "Évaluation",
+  "mslug": "evaluation",
+  "num": "00",
+  "titre": "Introduction au chapitre",
+  "file": "evaluation-00-introduction-au-chapitre.html"
+ },
+ {
+  "module": "Évaluation",
+  "mslug": "evaluation",
+  "num": "01",
+  "titre": "Système d'évaluation du patient (SEP)",
+  "file": "evaluation-01-systeme-d-evaluation-du-patient-sep.html"
+ },
+ {
+  "module": "Évaluation",
+  "mslug": "evaluation",
+  "num": "02",
+  "titre": "Triage",
+  "file": "evaluation-02-triage.html"
+ },
+ {
+  "module": "Évaluation",
+  "mslug": "evaluation",
+  "num": "03",
+  "titre": "État de choc",
+  "file": "evaluation-03-etat-de-choc.html"
+ },
+ {
+  "module": "Évaluation",
+  "mslug": "evaluation",
+  "num": "04",
+  "titre": "Déplacement des victimes",
+  "file": "evaluation-04-deplacement-des-victimes.html"
+ },
+ {
+  "module": "Évaluation",
+  "mslug": "evaluation",
+  "num": "05",
+  "titre": "Considérations liées à l'évacuation",
+  "file": "evaluation-05-considerations-liees-a-l-evacuation.html"
+ },
+ {
+  "module": "Évaluation",
+  "mslug": "evaluation",
+  "num": "06",
+  "titre": "Communication",
+  "file": "evaluation-06-communication.html"
+ },
+ {
+  "module": "Urgences médicales",
+  "mslug": "urgences-medicales",
+  "num": "00",
+  "titre": "Introduction au chapitre",
+  "file": "urgences-medicales-00-introduction-au-chapitre.html"
+ },
+ {
+  "module": "Urgences médicales",
+  "mslug": "urgences-medicales",
+  "num": "01",
+  "titre": "Urgences cardiovasculaires",
+  "file": "urgences-medicales-01-urgences-cardiovasculaires.html"
+ },
+ {
+  "module": "Urgences médicales",
+  "mslug": "urgences-medicales",
+  "num": "02",
+  "titre": "Urgences cérébrovasculaires",
+  "file": "urgences-medicales-02-urgences-cerebrovasculaires.html"
+ },
+ {
+  "module": "Urgences médicales",
+  "mslug": "urgences-medicales",
+  "num": "03",
+  "titre": "Urgences respiratoires",
+  "file": "urgences-medicales-03-urgences-respiratoires.html"
+ },
+ {
+  "module": "Urgences médicales",
+  "mslug": "urgences-medicales",
+  "num": "04",
+  "titre": "Épilepsie et convulsions",
+  "file": "urgences-medicales-04-epilepsie-et-convulsions.html"
+ },
+ {
+  "module": "Urgences médicales",
+  "mslug": "urgences-medicales",
+  "num": "05",
+  "titre": "Diabète",
+  "file": "urgences-medicales-05-diabete.html"
+ },
+ {
+  "module": "Urgences médicales",
+  "mslug": "urgences-medicales",
+  "num": "06",
+  "titre": "Urgences abdominales aiguës",
+  "file": "urgences-medicales-06-urgences-abdominales-aigues.html"
+ },
+ {
+  "module": "Urgences médicales",
+  "mslug": "urgences-medicales",
+  "num": "07",
+  "titre": "Gastroentérite",
+  "file": "urgences-medicales-07-gastroenterite.html"
+ },
+ {
+  "module": "Urgences médicales",
+  "mslug": "urgences-medicales",
+  "num": "08",
+  "titre": "Réactions allergiques et anaphylaxie",
+  "file": "urgences-medicales-08-reactions-allergiques-et-anaphylaxie.html"
+ },
+ {
+  "module": "Urgences médicales",
+  "mslug": "urgences-medicales",
+  "num": "09",
+  "titre": "Poisons et toxines",
+  "file": "urgences-medicales-09-poisons-et-toxines.html"
+ },
+ {
+  "module": "Urgences médicales",
+  "mslug": "urgences-medicales",
+  "num": "10",
+  "titre": "Médicaments",
+  "file": "urgences-medicales-10-medicaments.html"
+ },
+ {
+  "module": "Urgences associées à l'environnement",
+  "mslug": "urgences-environnement",
+  "num": "00",
+  "titre": "Introduction au chapitre",
+  "file": "urgences-environnement-00-introduction-au-chapitre.html"
+ },
+ {
+  "module": "Urgences associées à l'environnement",
+  "mslug": "urgences-environnement",
+  "num": "01",
+  "titre": "La désinfection de l'eau",
+  "file": "urgences-environnement-01-la-desinfection-de-l-eau.html"
+ },
+ {
+  "module": "Urgences associées à l'environnement",
+  "mslug": "urgences-environnement",
+  "num": "02",
+  "titre": "La foudre",
+  "file": "urgences-environnement-02-la-foudre.html"
+ },
+ {
+  "module": "Urgences associées à l'environnement",
+  "mslug": "urgences-environnement",
+  "num": "03",
+  "titre": "Les morsures d'animaux",
+  "file": "urgences-environnement-03-les-morsures-d-animaux.html"
+ },
+ {
+  "module": "Urgences associées à l'environnement",
+  "mslug": "urgences-environnement",
+  "num": "04",
+  "titre": "Les morsures de serpents",
+  "file": "urgences-environnement-04-les-morsures-de-serpents.html"
+ },
+ {
+  "module": "Urgences associées à l'environnement",
+  "mslug": "urgences-environnement",
+  "num": "05",
+  "titre": "Les morsures d'arachnides",
+  "file": "urgences-environnement-05-les-morsures-d-arachnides.html"
+ },
+ {
+  "module": "Urgences associées à l'environnement",
+  "mslug": "urgences-environnement",
+  "num": "06",
+  "titre": "Les piqûres de moustiques",
+  "file": "urgences-environnement-06-les-piqures-de-moustiques.html"
+ },
+ {
+  "module": "Urgences associées à l'environnement",
+  "mslug": "urgences-environnement",
+  "num": "07",
+  "titre": "Les accidents de submersion et le sauvetage",
+  "file": "urgences-environnement-07-les-accidents-de-submersion-et-le-sauvetage.html"
+ },
+ {
+  "module": "Lésions des tissus mous",
+  "mslug": "lesions-tissus-mous",
+  "num": "00",
+  "titre": "Introduction au chapitre",
+  "file": "lesions-tissus-mous-00-introduction-au-chapitre.html"
+ },
+ {
+  "module": "Lésions des tissus mous",
+  "mslug": "lesions-tissus-mous",
+  "num": "01",
+  "titre": "Le système tégumentaire",
+  "file": "lesions-tissus-mous-01-le-systeme-tegumentaire.html"
+ },
+ {
+  "module": "Lésions des tissus mous",
+  "mslug": "lesions-tissus-mous",
+  "num": "02",
+  "titre": "L'évaluation",
+  "file": "lesions-tissus-mous-02-l-evaluation.html"
+ },
+ {
+  "module": "Lésions des tissus mous",
+  "mslug": "lesions-tissus-mous",
+  "num": "03",
+  "titre": "Les lésions spécifiques",
+  "file": "lesions-tissus-mous-03-les-lesions-specifiques.html"
+ },
+ {
+  "module": "Lésions des tissus mous",
+  "mslug": "lesions-tissus-mous",
+  "num": "04",
+  "titre": "Les ampoules",
+  "file": "lesions-tissus-mous-04-les-ampoules.html"
+ },
+ {
+  "module": "Lésions des tissus mous",
+  "mslug": "lesions-tissus-mous",
+  "num": "05",
+  "titre": "Les brûlures",
+  "file": "lesions-tissus-mous-05-les-brulures.html"
+ },
+ {
+  "module": "Lésions des tissus mous",
+  "mslug": "lesions-tissus-mous",
+  "num": "06",
+  "titre": "Les trousses de premiers soins",
+  "file": "lesions-tissus-mous-06-les-trousses-de-premiers-soins.html"
+ },
+ {
+  "module": "Lésions musculosquelettiques",
+  "mslug": "lesions-musculosquelettiques",
+  "num": "00",
+  "titre": "Introduction au chapitre",
+  "file": "lesions-musculosquelettiques-00-introduction-au-chapitre.html"
+ },
+ {
+  "module": "Lésions musculosquelettiques",
+  "mslug": "lesions-musculosquelettiques",
+  "num": "01",
+  "titre": "Le système musculosquelettique",
+  "file": "lesions-musculosquelettiques-01-le-systeme-musculosquelettique.html"
+ },
+ {
+  "module": "Lésions musculosquelettiques",
+  "mslug": "lesions-musculosquelettiques",
+  "num": "02",
+  "titre": "L'évaluation et la prise en charge",
+  "file": "lesions-musculosquelettiques-02-l-evaluation-et-la-prise-en-charge.html"
+ },
+ {
+  "module": "Lésions musculosquelettiques",
+  "mslug": "lesions-musculosquelettiques",
+  "num": "03",
+  "titre": "Les attelles",
+  "file": "lesions-musculosquelettiques-03-les-attelles.html"
+ },
+ {
+  "module": "Lésions traumatiques",
+  "mslug": "lesions-traumatiques",
+  "num": "00",
+  "titre": "Introduction au chapitre",
+  "file": "lesions-traumatiques-00-introduction-au-chapitre.html"
+ },
+ {
+  "module": "Lésions traumatiques",
+  "mslug": "lesions-traumatiques",
+  "num": "01",
+  "titre": "Les blessures au visage et au cou",
+  "file": "lesions-traumatiques-01-les-blessures-au-visage-et-au-cou.html"
+ },
+ {
+  "module": "Lésions traumatiques",
+  "mslug": "lesions-traumatiques",
+  "num": "02",
+  "titre": "Les blessures aux yeux",
+  "file": "lesions-traumatiques-02-les-blessures-aux-yeux.html"
+ },
+ {
+  "module": "Lésions traumatiques",
+  "mslug": "lesions-traumatiques",
+  "num": "03",
+  "titre": "Les blessures au nez",
+  "file": "lesions-traumatiques-03-les-blessures-au-nez.html"
+ },
+ {
+  "module": "Lésions traumatiques",
+  "mslug": "lesions-traumatiques",
+  "num": "04",
+  "titre": "Les blessures aux oreilles",
+  "file": "lesions-traumatiques-04-les-blessures-aux-oreilles.html"
+ },
+ {
+  "module": "Lésions traumatiques",
+  "mslug": "lesions-traumatiques",
+  "num": "05",
+  "titre": "Les blessures aux dents",
+  "file": "lesions-traumatiques-05-les-blessures-aux-dents.html"
+ },
+ {
+  "module": "Lésions traumatiques",
+  "mslug": "lesions-traumatiques",
+  "num": "06",
+  "titre": "L'anatomie et les fonctions du système nerveux",
+  "file": "lesions-traumatiques-06-l-anatomie-et-les-fonctions-du-systeme-nerveux.html"
+ },
+ {
+  "module": "Lésions traumatiques",
+  "mslug": "lesions-traumatiques",
+  "num": "07",
+  "titre": "Les dispositifs d'immobilisation spinale",
+  "file": "lesions-traumatiques-07-les-dispositifs-d-immobilisation-spinale.html"
+ },
+ {
+  "module": "Lésions traumatiques",
+  "mslug": "lesions-traumatiques",
+  "num": "08",
+  "titre": "Les particularités pédiatriques",
+  "file": "lesions-traumatiques-08-les-particularites-pediatriques.html"
+ },
+ {
+  "module": "Lésions traumatiques",
+  "mslug": "lesions-traumatiques",
+  "num": "09",
+  "titre": "L'anatomie du thorax et de l'abdomen",
+  "file": "lesions-traumatiques-09-l-anatomie-du-thorax-et-de-l-abdomen.html"
+ }
+]
