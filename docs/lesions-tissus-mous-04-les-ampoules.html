@@ -16,9 +16,13 @@
   .topbar { background:#034EA2; color:#fff; padding:11px 20px; display:flex; align-items:center; gap:14px; flex-wrap:wrap; font-size:13px; }
   .topbar a { color:#fff; text-decoration:none; font-weight:600; border-bottom:1px solid rgba(255,255,255,0.5); }
   .topbar a:hover { color:#fff; border-bottom-color:#fff; }
+  .topbar .home { display:inline-flex; align-items:center; gap:6px; border:0; background:rgba(255,255,255,0.14); padding:6px 12px; }
+  .topbar .home:hover { background:rgba(255,255,255,0.26); border:0; }
   .topbar .sep { opacity:0.5; }
   .topbar .grow { flex:1 1 auto; }
   .topbar .pdf { background:#fff; color:#034EA2; padding:6px 12px; border:0; font-weight:700; }
+  .topbar .pdf:hover { background:#EEF1F5; border:0; }
+  .topbar a:focus-visible { outline:2px solid #fff; outline-offset:2px; }
   @media print { .topbar { display:none !important; } }
 </style>
 <script>
@@ -30,7 +34,7 @@
 </head>
 <body>
 <div class="topbar">
-  <a href="index.html">Aide-mémoire SARI 40h</a>
+  <a class="home" href="index.html">&lsaquo; Retour à la page principale</a>
   <span class="sep">·</span>
   <a href="lesions-tissus-mous.html">Lésions des tissus mous</a>
   <span class="sep">·</span>
@@ -77,7 +81,7 @@
         </div>
         <div style="display:flex; gap:12px; align-items:flex-start">
           <div style="flex:0 0 auto; width:0.25in; height:0.25in; border-radius:50%; background:#C25E12; color:#fff; font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center; margin-top:2px">2</div>
-          <div><b style="color:#02356F; font-weight:700">Prévention : réduire la friction, pas ajouter de volume.</b> Chaussures faites, chaussettes adaptées et sèches, crème antifriction sur les zones sensibles, ruban mince (Adhesive Knit, ruban chirurgical) en prévention. La moleskine épaisse posée préventivement augmente la pression dans une chaussure ajustée dès que le pied gonfle : réservez le rembourrage aux ampoules formées.</div>
+          <div><b style="color:#02356F; font-weight:700">Prévention : réduire la friction, pas ajouter de volume.</b> Chaussures faites, chaussettes adaptées et sèches, crème antifriction sur les zones sensibles, ruban mince (Adhesive Knit, ruban chirurgical) en prévention. La moleskine épaisse posée préventivement peut augmenter la pression dans une chaussure ajustée dès que le pied gonfle : réservez le rembourrage aux ampoules formées.</div>
         </div>
         <div style="display:flex; gap:12px; align-items:flex-start">
           <div style="flex:0 0 auto; width:0.25in; height:0.25in; border-radius:50%; background:#C25E12; color:#fff; font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center; margin-top:2px">3</div>
@@ -101,10 +105,6 @@
         <div>
           <div style="color:#5B6470; text-transform:uppercase; letter-spacing:0.1em; font-size:7.4pt; font-weight:700">Manuel terrain</div>
           <div style="color:#02356F; font-weight:600; margin-top:3px; line-height:1.35">Pages 100 et 101</div>
-        </div>
-        <div>
-          <div style="color:#5B6470; text-transform:uppercase; letter-spacing:0.1em; font-size:7.4pt; font-weight:700">Note</div>
-          <div style="color:#02356F; font-weight:600; margin-top:3px; line-height:1.35">Formulations (talc retiré au profit de la crème antifriction) : <span style="background:#FFF3B0; padding:0 3px">validation podiatrique en cours</span></div>
         </div>
       </div>
 

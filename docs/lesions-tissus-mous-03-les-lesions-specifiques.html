@@ -16,9 +16,13 @@
   .topbar { background:#034EA2; color:#fff; padding:11px 20px; display:flex; align-items:center; gap:14px; flex-wrap:wrap; font-size:13px; }
   .topbar a { color:#fff; text-decoration:none; font-weight:600; border-bottom:1px solid rgba(255,255,255,0.5); }
   .topbar a:hover { color:#fff; border-bottom-color:#fff; }
+  .topbar .home { display:inline-flex; align-items:center; gap:6px; border:0; background:rgba(255,255,255,0.14); padding:6px 12px; }
+  .topbar .home:hover { background:rgba(255,255,255,0.26); border:0; }
   .topbar .sep { opacity:0.5; }
   .topbar .grow { flex:1 1 auto; }
   .topbar .pdf { background:#fff; color:#034EA2; padding:6px 12px; border:0; font-weight:700; }
+  .topbar .pdf:hover { background:#EEF1F5; border:0; }
+  .topbar a:focus-visible { outline:2px solid #fff; outline-offset:2px; }
   @media print { .topbar { display:none !important; } }
 </style>
 <script>
@@ -30,7 +34,7 @@
 </head>
 <body>
 <div class="topbar">
-  <a href="index.html">Aide-mémoire SARI 40h</a>
+  <a class="home" href="index.html">&lsaquo; Retour à la page principale</a>
   <span class="sep">·</span>
   <a href="lesions-tissus-mous.html">Lésions des tissus mous</a>
   <span class="sep">·</span>
@@ -96,10 +100,6 @@
         <div>
           <div style="color:#5B6470; text-transform:uppercase; letter-spacing:0.1em; font-size:7.4pt; font-weight:700">Manuel terrain</div>
           <div style="color:#02356F; font-weight:600; margin-top:3px; line-height:1.35">Pages 92 à 97, types de plaies</div>
-        </div>
-        <div>
-          <div style="color:#5B6470; text-transform:uppercase; letter-spacing:0.1em; font-size:7.4pt; font-weight:700">Note</div>
-          <div style="color:#02356F; font-weight:600; margin-top:3px; line-height:1.35">Fenêtre de drainage de l'hématome sous-unguéal : <span style="background:#FFF3B0; padding:0 3px">source à vérifier</span></div>
         </div>
       </div>
 

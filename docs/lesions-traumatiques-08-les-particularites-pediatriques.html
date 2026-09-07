@@ -16,9 +16,13 @@
   .topbar { background:#034EA2; color:#fff; padding:11px 20px; display:flex; align-items:center; gap:14px; flex-wrap:wrap; font-size:13px; }
   .topbar a { color:#fff; text-decoration:none; font-weight:600; border-bottom:1px solid rgba(255,255,255,0.5); }
   .topbar a:hover { color:#fff; border-bottom-color:#fff; }
+  .topbar .home { display:inline-flex; align-items:center; gap:6px; border:0; background:rgba(255,255,255,0.14); padding:6px 12px; }
+  .topbar .home:hover { background:rgba(255,255,255,0.26); border:0; }
   .topbar .sep { opacity:0.5; }
   .topbar .grow { flex:1 1 auto; }
   .topbar .pdf { background:#fff; color:#034EA2; padding:6px 12px; border:0; font-weight:700; }
+  .topbar .pdf:hover { background:#EEF1F5; border:0; }
+  .topbar a:focus-visible { outline:2px solid #fff; outline-offset:2px; }
   @media print { .topbar { display:none !important; } }
 </style>
 <script>
@@ -30,7 +34,7 @@
 </head>
 <body>
 <div class="topbar">
-  <a href="index.html">Aide-mémoire SARI 40h</a>
+  <a class="home" href="index.html">&lsaquo; Retour à la page principale</a>
   <span class="sep">·</span>
   <a href="lesions-traumatiques.html">Lésions traumatiques</a>
   <span class="sep">·</span>
@@ -68,11 +72,11 @@
       <div style="margin-top:0.18in; display:flex; flex-direction:column; gap:11px">
         <div style="display:flex; gap:12px; align-items:flex-start">
           <div style="flex:0 0 auto; width:0.26in; height:0.26in; border-radius:50%; background:#493D8D; color:#fff; font-size:10pt; font-weight:700; display:flex; align-items:center; justify-content:center; margin-top:2px">1</div>
-          <div><b style="color:#02356F; font-weight:700"><span style="background:#FFF3B0; padding:0 3px">La grosse tête fléchit le cou en position couchée.</span></b> Chez le jeune enfant, l'occiput proéminent amène le cou en flexion quand il est à plat sur le dos. Pour obtenir la position neutre, rehaussez le tronc et les épaules, pas la tête.</div>
+          <div><b style="color:#02356F; font-weight:700">La grosse tête fléchit le cou en position couchée.</b> Chez le jeune enfant, l'occiput proéminent amène le cou en flexion quand il est à plat sur le dos. Pour obtenir la position neutre, rehaussez le tronc et les épaules, pas la tête.</div>
         </div>
         <div style="display:flex; gap:12px; align-items:flex-start">
           <div style="flex:0 0 auto; width:0.26in; height:0.26in; border-radius:50%; background:#493D8D; color:#fff; font-size:10pt; font-weight:700; display:flex; align-items:center; justify-content:center; margin-top:2px">2</div>
-          <div><b style="color:#02356F; font-weight:700"><span style="background:#FFF3B0; padding:0 3px">Une moelle blessée sans fracture visible.</span></b> La laxité ligamentaire permet un étirement de la moelle sans lésion osseuse. Un déficit neurologique, même transitoire (faiblesse, picotements après la chute), compte comme une atteinte, même si l'enfant semble aller bien ensuite.</div>
+          <div><b style="color:#02356F; font-weight:700">Une moelle blessée sans fracture visible.</b> La laxité ligamentaire permet un étirement de la moelle sans lésion osseuse. Un déficit neurologique, même transitoire (faiblesse, picotements après la chute), compte comme une atteinte, même si l'enfant semble aller bien ensuite.</div>
         </div>
         <div style="display:flex; gap:12px; align-items:flex-start">
           <div style="flex:0 0 auto; width:0.26in; height:0.26in; border-radius:50%; background:#493D8D; color:#fff; font-size:10pt; font-weight:700; display:flex; align-items:center; justify-content:center; margin-top:2px">3</div>
@@ -91,15 +95,11 @@
       <div style="margin-top:auto; border-top:1px solid #C9D2DE; padding-top:9px; display:grid; grid-template-columns:1.05fr 0.95fr 1.05fr; gap:16px; font-size:8.6pt">
         <div>
           <div style="color:#5B6470; text-transform:uppercase; letter-spacing:0.1em; font-size:7.4pt; font-weight:700">Manuel de l'apprenant</div>
-          <div style="color:#02356F; font-weight:600; margin-top:3px; line-height:1.35"><span style="background:#FFF3B0; padding:0 3px">Section à confirmer</span>  ·  <a href="https://www.siriusmedx.com/manuel" style="color:#034EA2; text-decoration:none; border-bottom:1px solid #A8BEDA">Encyclopédie en ligne</a></div>
+          <div style="color:#02356F; font-weight:600; margin-top:3px; line-height:1.35">N/A</div>
         </div>
         <div>
           <div style="color:#5B6470; text-transform:uppercase; letter-spacing:0.1em; font-size:7.4pt; font-weight:700">Manuel terrain</div>
-          <div style="color:#02356F; font-weight:600; margin-top:3px; line-height:1.35"><span style="background:#FFF3B0; padding:0 3px">Pages à confirmer</span></div>
-        </div>
-        <div>
-          <div style="color:#5B6470; text-transform:uppercase; letter-spacing:0.1em; font-size:7.4pt; font-weight:700">Note</div>
-          <div style="color:#02356F; font-weight:600; margin-top:3px; line-height:1.35"><span style="background:#FFF3B0; padding:0 3px">Points 1 et 2 rédigés d'après la pratique usuelle en médecine de l'enfant : à aligner sur le script de la capsule</span></div>
+          <div style="color:#02356F; font-weight:600; margin-top:3px; line-height:1.35">N/A</div>
         </div>
       </div>
 
