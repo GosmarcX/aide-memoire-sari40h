@@ -21,7 +21,11 @@
   .topbar .sep { opacity:0.5; }
   .topbar .grow { flex:1 1 auto; }
   .topbar .actions { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
-  .topbar .home { display:inline-flex; align-items:center; gap:8px; background:#fff; color:#034EA2; font-weight:800; padding:9px 18px; letter-spacing:0.01em; }
+  .topbar .lang { display:inline-flex; align-items:center; border:1.5px solid rgba(255,255,255,0.75); }
+  .topbar .lang a, .topbar .lang span { padding:7px 12px; font-weight:700; font-size:12px; letter-spacing:0.04em; }
+  .topbar .lang .on { background:#fff; color:#034EA2; }
+  .topbar .lang a:hover { background:rgba(255,255,255,0.18); }
+  .topbar .home { display:inline-flex; align-items:center; gap:8px; background:#fff; color:#034EA2; font-weight:800; padding:9px 18px; }
   .topbar .home:hover { background:#EEF1F5; color:#02356F; }
   .topbar .home .chev { font-size:16px; line-height:1; }
   .topbar .pdf { display:inline-flex; align-items:center; gap:7px; background:transparent; color:#fff; font-weight:700; padding:8px 16px; border:1.5px solid rgba(255,255,255,0.75); }
@@ -42,6 +46,7 @@
   <div class="trail"><span style="font-weight:700">Prévention</span> <span class="sep">·</span> <span>6 fiches</span></div>
   <span class="grow"></span>
   <div class="actions">
+    <span class="lang"><span class="on">FR</span><a href="prevention-en.html">EN</a></span>
     <a class="home" href="index.html"><span class="chev">&lsaquo;</span> Retour à la page principale</a>
     <a class="pdf" href="pdf/aide-memoire-sari40h-prevention.pdf" download>Télécharger le PDF</a>
   </div>
