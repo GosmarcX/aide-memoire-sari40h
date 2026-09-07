@@ -27,7 +27,7 @@ jobs:
           npm i -D playwright
           npx playwright install --with-deps chromium
 
-      - name: Rendre les sept modules en PDF
+      - name: Rendre les quatorze modules en PDF
         run: |
           cat > render.mjs <<'RENDER_EOF'
           import { chromium } from 'playwright';
@@ -35,7 +35,7 @@ jobs:
           import { readFile, mkdir } from 'node:fs/promises';
           import { extname, join, normalize } from 'node:path';
 
-          const MODULES = [
+          const BASES = [
             'prevention',
             'evaluation',
             'urgences-medicales',
@@ -44,6 +44,7 @@ jobs:
             'lesions-musculosquelettiques',
             'lesions-traumatiques',
           ];
+          const MODULES = [...BASES, ...BASES.map((s) => s + '-en')];
 
           const TYPES = {
             '.html': 'text/html; charset=utf-8',
