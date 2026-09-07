@@ -1,370 +1,370 @@
 [
  {
-  "module": "Prevention Module",
+  "module": "Prevention",
   "mslug": "prevention",
   "num": "00",
   "titre": "Introduction to the chapter",
   "file": "prevention-00-introduction-to-the-chapter-en.html"
  },
  {
-  "module": "Prevention Module",
+  "module": "Prevention",
   "mslug": "prevention",
   "num": "01",
   "titre": "First aid",
   "file": "prevention-01-first-aid-en.html"
  },
  {
-  "module": "Prevention Module",
+  "module": "Prevention",
   "mslug": "prevention",
   "num": "02",
   "titre": "Leadership",
   "file": "prevention-02-leadership-en.html"
  },
  {
-  "module": "Prevention Module",
+  "module": "Prevention",
   "mslug": "prevention",
   "num": "03",
   "titre": "Laws and responsibilities",
   "file": "prevention-03-laws-and-responsibilities-en.html"
  },
  {
-  "module": "Prevention Module",
+  "module": "Prevention",
   "mslug": "prevention",
   "num": "04",
   "titre": "Preventing disease transmission",
   "file": "prevention-04-preventing-disease-transmission-en.html"
  },
  {
-  "module": "Prevention Module",
+  "module": "Prevention",
   "mslug": "prevention",
   "num": "05",
   "titre": "Structures of the body",
   "file": "prevention-05-structures-of-the-body-en.html"
  },
  {
-  "module": "Assessment Module",
+  "module": "Assessment",
   "mslug": "evaluation",
   "num": "00",
   "titre": "Introduction to the chapter",
   "file": "evaluation-00-introduction-to-the-chapter-en.html"
  },
  {
-  "module": "Assessment Module",
+  "module": "Assessment",
   "mslug": "evaluation",
   "num": "01",
   "titre": "Patient Assessment System (PAS)",
   "file": "evaluation-01-patient-assessment-system-pas-en.html"
  },
  {
-  "module": "Assessment Module",
+  "module": "Assessment",
   "mslug": "evaluation",
   "num": "02",
   "titre": "Triage",
   "file": "evaluation-02-triage-en.html"
  },
  {
-  "module": "Assessment Module",
+  "module": "Assessment",
   "mslug": "evaluation",
   "num": "03",
   "titre": "Shock",
   "file": "evaluation-03-shock-en.html"
  },
  {
-  "module": "Assessment Module",
+  "module": "Assessment",
   "mslug": "evaluation",
   "num": "04",
   "titre": "Moving patients",
   "file": "evaluation-04-moving-patients-en.html"
  },
  {
-  "module": "Assessment Module",
+  "module": "Assessment",
   "mslug": "evaluation",
   "num": "05",
   "titre": "Evacuation considerations",
   "file": "evaluation-05-evacuation-considerations-en.html"
  },
  {
-  "module": "Assessment Module",
+  "module": "Assessment",
   "mslug": "evaluation",
   "num": "06",
   "titre": "Communication",
   "file": "evaluation-06-communication-en.html"
  },
  {
-  "module": "Medical Emergencies Module",
+  "module": "Medical Emergencies",
   "mslug": "urgences-medicales",
   "num": "00",
   "titre": "Introduction to the chapter",
   "file": "urgences-medicales-00-introduction-to-the-chapter-en.html"
  },
  {
-  "module": "Medical Emergencies Module",
+  "module": "Medical Emergencies",
   "mslug": "urgences-medicales",
   "num": "01",
   "titre": "Cardiovascular emergencies",
   "file": "urgences-medicales-01-cardiovascular-emergencies-en.html"
  },
  {
-  "module": "Medical Emergencies Module",
+  "module": "Medical Emergencies",
   "mslug": "urgences-medicales",
   "num": "02",
   "titre": "Cerebrovascular emergencies",
   "file": "urgences-medicales-02-cerebrovascular-emergencies-en.html"
  },
  {
-  "module": "Medical Emergencies Module",
+  "module": "Medical Emergencies",
   "mslug": "urgences-medicales",
   "num": "03",
   "titre": "Respiratory emergencies",
   "file": "urgences-medicales-03-respiratory-emergencies-en.html"
  },
  {
-  "module": "Medical Emergencies Module",
+  "module": "Medical Emergencies",
   "mslug": "urgences-medicales",
   "num": "04",
   "titre": "Epilepsy and seizures",
   "file": "urgences-medicales-04-epilepsy-and-seizures-en.html"
  },
  {
-  "module": "Medical Emergencies Module",
+  "module": "Medical Emergencies",
   "mslug": "urgences-medicales",
   "num": "05",
   "titre": "Diabetes",
   "file": "urgences-medicales-05-diabetes-en.html"
  },
  {
-  "module": "Medical Emergencies Module",
+  "module": "Medical Emergencies",
   "mslug": "urgences-medicales",
   "num": "06",
   "titre": "Acute abdominal emergencies",
   "file": "urgences-medicales-06-acute-abdominal-emergencies-en.html"
  },
  {
-  "module": "Medical Emergencies Module",
+  "module": "Medical Emergencies",
   "mslug": "urgences-medicales",
   "num": "07",
   "titre": "Gastroenteritis",
   "file": "urgences-medicales-07-gastroenteritis-en.html"
  },
  {
-  "module": "Medical Emergencies Module",
+  "module": "Medical Emergencies",
   "mslug": "urgences-medicales",
   "num": "08",
   "titre": "Allergic reactions and anaphylaxis",
   "file": "urgences-medicales-08-allergic-reactions-and-anaphylaxis-en.html"
  },
  {
-  "module": "Medical Emergencies Module",
+  "module": "Medical Emergencies",
   "mslug": "urgences-medicales",
   "num": "09",
   "titre": "Poisons and toxins",
   "file": "urgences-medicales-09-poisons-and-toxins-en.html"
  },
  {
-  "module": "Medical Emergencies Module",
+  "module": "Medical Emergencies",
   "mslug": "urgences-medicales",
   "num": "10",
   "titre": "Medications",
   "file": "urgences-medicales-10-medications-en.html"
  },
  {
-  "module": "Environmental Emergencies Module",
+  "module": "Environmental Emergencies",
   "mslug": "urgences-environnement",
   "num": "00",
   "titre": "Introduction to the chapter",
   "file": "urgences-environnement-00-introduction-to-the-chapter-en.html"
  },
  {
-  "module": "Environmental Emergencies Module",
+  "module": "Environmental Emergencies",
   "mslug": "urgences-environnement",
   "num": "01",
   "titre": "Water disinfection",
   "file": "urgences-environnement-01-water-disinfection-en.html"
  },
  {
-  "module": "Environmental Emergencies Module",
+  "module": "Environmental Emergencies",
   "mslug": "urgences-environnement",
   "num": "02",
   "titre": "Lightning",
   "file": "urgences-environnement-02-lightning-en.html"
  },
  {
-  "module": "Environmental Emergencies Module",
+  "module": "Environmental Emergencies",
   "mslug": "urgences-environnement",
   "num": "03",
   "titre": "Animal bites",
   "file": "urgences-environnement-03-animal-bites-en.html"
  },
  {
-  "module": "Environmental Emergencies Module",
+  "module": "Environmental Emergencies",
   "mslug": "urgences-environnement",
   "num": "04",
   "titre": "Snakebites",
   "file": "urgences-environnement-04-snakebites-en.html"
  },
  {
-  "module": "Environmental Emergencies Module",
+  "module": "Environmental Emergencies",
   "mslug": "urgences-environnement",
   "num": "05",
   "titre": "Arachnid bites",
   "file": "urgences-environnement-05-arachnid-bites-en.html"
  },
  {
-  "module": "Environmental Emergencies Module",
+  "module": "Environmental Emergencies",
   "mslug": "urgences-environnement",
   "num": "06",
   "titre": "Mosquito bites",
   "file": "urgences-environnement-06-mosquito-bites-en.html"
  },
  {
-  "module": "Environmental Emergencies Module",
+  "module": "Environmental Emergencies",
   "mslug": "urgences-environnement",
   "num": "07",
   "titre": "Submersion incidents and rescue",
   "file": "urgences-environnement-07-submersion-incidents-and-rescue-en.html"
  },
  {
-  "module": "Soft Tissue Injuries Module",
+  "module": "Soft Tissue Injuries",
   "mslug": "lesions-tissus-mous",
   "num": "00",
   "titre": "Introduction to the chapter",
   "file": "lesions-tissus-mous-00-introduction-to-the-chapter-en.html"
  },
  {
-  "module": "Soft Tissue Injuries Module",
+  "module": "Soft Tissue Injuries",
   "mslug": "lesions-tissus-mous",
   "num": "01",
   "titre": "The integumentary system",
   "file": "lesions-tissus-mous-01-the-integumentary-system-en.html"
  },
  {
-  "module": "Soft Tissue Injuries Module",
+  "module": "Soft Tissue Injuries",
   "mslug": "lesions-tissus-mous",
   "num": "02",
   "titre": "Assessment",
   "file": "lesions-tissus-mous-02-assessment-en.html"
  },
  {
-  "module": "Soft Tissue Injuries Module",
+  "module": "Soft Tissue Injuries",
   "mslug": "lesions-tissus-mous",
   "num": "03",
   "titre": "Specific injuries",
   "file": "lesions-tissus-mous-03-specific-injuries-en.html"
  },
  {
-  "module": "Soft Tissue Injuries Module",
+  "module": "Soft Tissue Injuries",
   "mslug": "lesions-tissus-mous",
   "num": "04",
   "titre": "Blisters",
   "file": "lesions-tissus-mous-04-blisters-en.html"
  },
  {
-  "module": "Soft Tissue Injuries Module",
+  "module": "Soft Tissue Injuries",
   "mslug": "lesions-tissus-mous",
   "num": "05",
   "titre": "Burns",
   "file": "lesions-tissus-mous-05-burns-en.html"
  },
  {
-  "module": "Soft Tissue Injuries Module",
+  "module": "Soft Tissue Injuries",
   "mslug": "lesions-tissus-mous",
   "num": "06",
   "titre": "First aid kits",
   "file": "lesions-tissus-mous-06-first-aid-kits-en.html"
  },
  {
-  "module": "Musculoskeletal Injuries Module",
+  "module": "Musculoskeletal Injuries",
   "mslug": "lesions-musculosquelettiques",
   "num": "00",
   "titre": "Introduction to the chapter",
   "file": "lesions-musculosquelettiques-00-introduction-to-the-chapter-en.html"
  },
  {
-  "module": "Musculoskeletal Injuries Module",
+  "module": "Musculoskeletal Injuries",
   "mslug": "lesions-musculosquelettiques",
   "num": "01",
   "titre": "The musculoskeletal system",
   "file": "lesions-musculosquelettiques-01-the-musculoskeletal-system-en.html"
  },
  {
-  "module": "Musculoskeletal Injuries Module",
+  "module": "Musculoskeletal Injuries",
   "mslug": "lesions-musculosquelettiques",
   "num": "02",
   "titre": "Assessment and management",
   "file": "lesions-musculosquelettiques-02-assessment-and-management-en.html"
  },
  {
-  "module": "Musculoskeletal Injuries Module",
+  "module": "Musculoskeletal Injuries",
   "mslug": "lesions-musculosquelettiques",
   "num": "03",
   "titre": "Splints",
   "file": "lesions-musculosquelettiques-03-splints-en.html"
  },
  {
-  "module": "Traumatic Injuries Module",
+  "module": "Traumatic Injuries",
   "mslug": "lesions-traumatiques",
   "num": "00",
   "titre": "Introduction to the chapter",
   "file": "lesions-traumatiques-00-introduction-to-the-chapter-en.html"
  },
  {
-  "module": "Traumatic Injuries Module",
+  "module": "Traumatic Injuries",
   "mslug": "lesions-traumatiques",
   "num": "01",
   "titre": "Facial and neck injuries",
   "file": "lesions-traumatiques-01-facial-and-neck-injuries-en.html"
  },
  {
-  "module": "Traumatic Injuries Module",
+  "module": "Traumatic Injuries",
   "mslug": "lesions-traumatiques",
   "num": "02",
   "titre": "Eye injuries",
   "file": "lesions-traumatiques-02-eye-injuries-en.html"
  },
  {
-  "module": "Traumatic Injuries Module",
+  "module": "Traumatic Injuries",
   "mslug": "lesions-traumatiques",
   "num": "03",
   "titre": "Nose injuries",
   "file": "lesions-traumatiques-03-nose-injuries-en.html"
  },
  {
-  "module": "Traumatic Injuries Module",
+  "module": "Traumatic Injuries",
   "mslug": "lesions-traumatiques",
   "num": "04",
   "titre": "Ear injuries",
   "file": "lesions-traumatiques-04-ear-injuries-en.html"
  },
  {
-  "module": "Traumatic Injuries Module",
+  "module": "Traumatic Injuries",
   "mslug": "lesions-traumatiques",
   "num": "05",
   "titre": "Dental injuries",
   "file": "lesions-traumatiques-05-dental-injuries-en.html"
  },
  {
-  "module": "Traumatic Injuries Module",
+  "module": "Traumatic Injuries",
   "mslug": "lesions-traumatiques",
   "num": "06",
   "titre": "Anatomy and functions of the nervous system",
   "file": "lesions-traumatiques-06-anatomy-and-functions-of-the-nervous-system-en.html"
  },
  {
-  "module": "Traumatic Injuries Module",
+  "module": "Traumatic Injuries",
   "mslug": "lesions-traumatiques",
   "num": "07",
   "titre": "Spinal immobilization devices",
   "file": "lesions-traumatiques-07-spinal-immobilization-devices-en.html"
  },
  {
-  "module": "Traumatic Injuries Module",
+  "module": "Traumatic Injuries",
   "mslug": "lesions-traumatiques",
   "num": "08",
   "titre": "Pediatric considerations",
   "file": "lesions-traumatiques-08-pediatric-considerations-en.html"
  },
  {
-  "module": "Traumatic Injuries Module",
+  "module": "Traumatic Injuries",
   "mslug": "lesions-traumatiques",
   "num": "09",
   "titre": "Anatomy of the chest and abdomen",
