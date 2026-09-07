@@ -15,11 +15,11 @@ jobs:
   pdf:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Installer Playwright
         run: |
@@ -28,7 +28,73 @@ jobs:
           npx playwright install --with-deps chromium
 
       - name: Rendre les sept modules en PDF
-        run: node .github/scripts/render-pdf.mjs
+        run: |
+          cat > render.mjs <<'RENDER_EOF'
+          import { chromium } from 'playwright';
+          import { createServer } from 'node:http';
+          import { readFile, mkdir } from 'node:fs/promises';
+          import { extname, join, normalize } from 'node:path';
+
+          const MODULES = [
+            'prevention',
+            'evaluation',
+            'urgences-medicales',
+            'urgences-environnement',
+            'lesions-tissus-mous',
+            'lesions-musculosquelettiques',
+            'lesions-traumatiques',
+          ];
+
+          const TYPES = {
+            '.html': 'text/html; charset=utf-8',
+            '.js': 'text/javascript; charset=utf-8',
+            '.json': 'application/json; charset=utf-8',
+            '.css': 'text/css; charset=utf-8',
+            '.svg': 'image/svg+xml',
+            '.png': 'image/png',
+            '.jpg': 'image/jpeg',
+            '.pdf': 'application/pdf',
+          };
+
+          const server = createServer(async (req, res) => {
+            const path = decodeURIComponent(req.url.split('?')[0]);
+            const file = join('docs', normalize(path === '/' ? '/index.html' : path));
+            try {
+              const body = await readFile(file);
+              res.writeHead(200, { 'content-type': TYPES[extname(file)] || 'application/octet-stream' });
+              res.end(body);
+            } catch {
+              res.writeHead(404).end('not found');
+            }
+          });
+          await new Promise((r) => server.listen(0, r));
+          const base = 'http://127.0.0.1:' + server.address().port;
+
+          await mkdir('docs/pdf', { recursive: true });
+          const browser = await chromium.launch();
+          const page = await browser.newPage();
+
+          for (const slug of MODULES) {
+            await page.goto(base + '/' + slug + '.html', { waitUntil: 'networkidle' });
+            await page.waitForFunction(
+              () => document.querySelectorAll('doc-page section.page').length > 0,
+              null,
+              { timeout: 20000 },
+            );
+            await page.evaluate(() => document.fonts.ready);
+            await page.waitForTimeout(800);
+
+            const out = 'docs/pdf/aide-memoire-sari40h-' + slug + '.pdf';
+            await page.pdf({ path: out, format: 'Letter', printBackground: true, preferCSSPageSize: true });
+            const n = await page.evaluate(() => document.querySelectorAll('doc-page section.page').length);
+            console.log(out + ' — ' + n + ' pages');
+          }
+
+          await browser.close();
+          server.close();
+          RENDER_EOF
+          node render.mjs
+          rm render.mjs
 
       - name: Commiter les PDF mis à jour
         run: |
