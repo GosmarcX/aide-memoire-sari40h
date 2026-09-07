@@ -13,16 +13,21 @@
   a { color:#034EA2; }
   a:hover { color:#02356F; }
   doc-page:not(:defined) { visibility:hidden; }
-  .topbar { background:#034EA2; color:#fff; padding:11px 20px; display:flex; align-items:center; gap:14px; flex-wrap:wrap; font-size:13px; }
-  .topbar a { color:#fff; text-decoration:none; font-weight:600; border-bottom:1px solid rgba(255,255,255,0.5); }
-  .topbar a:hover { color:#fff; border-bottom-color:#fff; }
-  .topbar .home { display:inline-flex; align-items:center; gap:6px; border:0; background:rgba(255,255,255,0.14); padding:6px 12px; }
-  .topbar .home:hover { background:rgba(255,255,255,0.26); border:0; }
+  .topbar { background:#034EA2; color:#fff; padding:10px 20px; display:flex; align-items:center; gap:12px; flex-wrap:wrap; font-size:13px; }
+  .topbar a { color:#fff; text-decoration:none; font-weight:600; }
+  .topbar .trail { display:flex; align-items:center; gap:10px; flex-wrap:wrap; min-width:0; }
+  .topbar .trail a { border-bottom:1px solid rgba(255,255,255,0.5); }
+  .topbar .trail a:hover { border-bottom-color:#fff; }
   .topbar .sep { opacity:0.5; }
   .topbar .grow { flex:1 1 auto; }
-  .topbar .pdf { background:#fff; color:#034EA2; padding:6px 12px; border:0; font-weight:700; }
-  .topbar .pdf:hover { background:#EEF1F5; border:0; }
+  .topbar .actions { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .topbar .home { display:inline-flex; align-items:center; gap:8px; background:#fff; color:#034EA2; font-weight:800; padding:9px 18px; letter-spacing:0.01em; }
+  .topbar .home:hover { background:#EEF1F5; color:#02356F; }
+  .topbar .home .chev { font-size:16px; line-height:1; }
+  .topbar .pdf { display:inline-flex; align-items:center; gap:7px; background:transparent; color:#fff; font-weight:700; padding:8px 16px; border:1.5px solid rgba(255,255,255,0.75); }
+  .topbar .pdf:hover { background:rgba(255,255,255,0.16); border-color:#fff; }
   .topbar a:focus-visible { outline:2px solid #fff; outline-offset:2px; }
+  @media (max-width: 720px) { .topbar .grow { flex-basis:100%; } }
   @media print { .topbar { display:none !important; } }
 </style>
 <script>
@@ -34,15 +39,14 @@
 </head>
 <body>
 <div class="topbar">
-  <a class="home" href="index.html">&lsaquo; Retour à la page principale</a>
-  <span class="sep">·</span>
-  <a href="urgences-medicales.html">Urgences médicales</a>
-  <span class="sep">·</span>
-  <span>Leçon 08 — Réactions allergiques et anaphylaxie</span>
+  <div class="trail"><a href="urgences-medicales.html">Urgences médicales</a> <span class="sep">·</span> <span>Leçon 08 — Réactions allergiques et anaphylaxie</span>
+    <span class="sep">·</span> <a href="urgences-medicales-07-gastroenterite.html">&lsaquo; 07</a>
+    <a href="urgences-medicales-09-poisons-et-toxines.html">09 &rsaquo;</a></div>
   <span class="grow"></span>
-  <a href="urgences-medicales-07-gastroenterite.html">&lsaquo; Leçon 07</a>
-  <a href="urgences-medicales-09-poisons-et-toxines.html">Leçon 09 &rsaquo;</a>
-  <a class="pdf" href="?print=1">Imprimer ou PDF</a>
+  <div class="actions">
+    <a class="home" href="index.html"><span class="chev">&lsaquo;</span> Retour à la page principale</a>
+    <a class="pdf" href="?print=1">Imprimer ou PDF</a>
+  </div>
 </div>
 <doc-page size="letter">
 <section class="page" data-screen-label="10 Fiche 08" id="f08" style="position:relative; overflow:hidden; background:#fff; color:#1F2937; font-size:10.2pt; line-height:1.38">
