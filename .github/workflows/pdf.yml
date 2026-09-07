@@ -1,0 +1,43 @@
+name: Générer les PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/*.html'
+      - '.github/workflows/pdf.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Installer Playwright
+        run: |
+          npm init -y
+          npm i -D playwright
+          npx playwright install --with-deps chromium
+
+      - name: Rendre les sept modules en PDF
+        run: node .github/scripts/render-pdf.mjs
+
+      - name: Commiter les PDF mis à jour
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/pdf
+          if git diff --staged --quiet; then
+            echo "Aucun changement dans les PDF."
+          else
+            git commit -m "PDF régénérés automatiquement"
+            git push
+          fi
